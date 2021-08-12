@@ -1,0 +1,10 @@
+.nav{
+    background: #282c34;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+li{
+    text-decoration: none;
+}
