@@ -13,7 +13,7 @@ function Trivia({data, setStop, questionNumber, setQuestionNumber}) {
     const delay = (duration,callback) => {
         setTimeout(()=>{
             callback();
-        },3000)
+        },duration)
     }
 
     const handleClick = (a) => {
